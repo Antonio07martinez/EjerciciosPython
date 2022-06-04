@@ -1,0 +1,3 @@
+Ejercicios Python
+
+https://aprendeconalf.es/docencia/python/ejercicios/tipos-datos/
