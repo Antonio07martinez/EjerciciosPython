@@ -4,9 +4,9 @@
 def Operacion(cantidad,interes,años):
     porcentaje = interes * 0.01
     anual = porcentaje * cantidad
-    total = cantidad - (anual * años)
+    total = cantidad + (anual * años)
     print('\n-------------------------------------------------------------- WELCOME ------------------------------------------')
-    print('Inversion de: $'+str(cantidad)+'\nInteres anual: '+str(interes)+'%\nDescuento por año: -$'+str(anual)+'\nTotal de: $'+str(total))
+    print('Inversion de: $'+str(cantidad)+'\nInteres anual: '+str(interes)+'%\nInteres por año: +$'+str(anual)+'\nTotal de: $'+str(total))
     print('\n---------------------------------------------------------------- BYE --------------------------------------------')
 
 Operacion(
